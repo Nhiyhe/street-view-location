@@ -5,7 +5,7 @@ interface IProps {
 }
 
 const CustomAPIProvider = ({ children }: IProps) => {
-  const API_KEY = "AIzaSyCOWv5Pnu9Z-1NJutKgJ_7tM_ZIjtj0a58";
+  const API_KEY = "YOUR_API_KEY_HERE...";
   return (
     <div className="App" style={{}}>
       <APIProvider apiKey={API_KEY}>
